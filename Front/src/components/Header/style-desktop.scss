@@ -1,0 +1,38 @@
+@media (min-width: 601px) {
+ 
+    .header
+    {
+        background-color: rgba(42,90,245,.555);
+        height: 20%;
+        text-align: center;
+        padding: 3rem;
+    }
+
+    /* 
+    * Title
+    */
+
+    .header_title 
+    {
+        font-weight: bold;
+        font-size: 2.3rem;
+    }
+
+    /*
+    * Link 
+    */
+
+    .link
+    {
+        display: flex;
+        justify-content: space-around;
+        padding-top: 4rem;
+    }
+
+    .link_detail
+    {
+        color: white;
+        font-weight: bold;
+        font-size: 1.5rem;
+    }
+}
