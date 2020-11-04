@@ -46,7 +46,7 @@
     "postcss-preset-env": "*",
     "resolve-url-loader": "*",
     "sass": "*",
-    "sass-loader": "*",
+    "sass-loader": "^10.0.2",
     "style-loader": "*",
     "terser-webpack-plugin": "*",
     "webpack": "*",
@@ -55,11 +55,18 @@
     "webpack-merge": "*"
   },
   "dependencies": {
+    "axios": "^0.20.0",
     "prop-types": "*",
     "react": "*",
+    "react-cookie": "^4.0.3",
     "react-dom": "*",
     "react-redux": "*",
+    "react-router-dom": "^5.2.0",
+    "react-typewriting-effect": "^1.0.4",
     "redux": "*",
-    "styled-components": "*"
+    "slugify": "^1.4.5",
+    "styled-components": "*",
+    "universal-cookie": "^4.0.4",
+    "uuidv4": "^6.2.3"
   }
 }
