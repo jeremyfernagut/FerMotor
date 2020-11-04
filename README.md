@@ -11,8 +11,9 @@ Site vitrine avec un Front en React et un Back en Symfony.
 
 <hr/>
 
-- [ x ] Mise en place des bases du projet.
-- [  ] Création des wireFrames.
+- [ X ] Mise en place des bases du projet.
+- [ X ] Création des wireFrames.
+- [  ] Création du header.
 
 ### Déféinition des besoins et des objectifs du projet
 
