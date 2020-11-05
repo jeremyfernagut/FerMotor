@@ -3,7 +3,7 @@ import React from 'react';
 
 // ========= Import ==============
 import Header from '../Header';
-// import Footer from '../Footer';
+import Footer from '../Footer';
 // import Contact from '../Contact';
 // import NotFound from '../NotFound';
 // import Home from '../Home';
@@ -19,6 +19,8 @@ const App = () => {
   return(
   <div className="app">
     <Header />
+
+    <Footer />
     
   </div>
   )};

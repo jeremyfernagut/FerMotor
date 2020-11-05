@@ -1,3 +1,41 @@
 @media (min-width: 601px) {
-    
+    .footer
+    {
+        background-color: #E22822;
+        height: 12%;
+    };
+
+    .footer_title
+    {
+        font-weight: bold;
+        text-align: center;
+ 
+    };
+
+    /*
+    *Info
+    */
+
+    .footer_info
+    {
+        font-weight: bold;       
+        display: flex;
+        justify-content: space-evenly;
+    };
+
+    .footer_tel
+    {
+        width: 18%;
+    };
+
+    .footer_horraire
+    {
+
+    };
+
+    .footer_adresse
+    {
+
+    };
+
 }
