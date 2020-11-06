@@ -8,8 +8,6 @@ const Home = () => (
       <div className=""> La menuiserie </div>
       <div className=""> L'équipe</div>
       <div className></div>
-
-    
   </div>
   </div>
 );
