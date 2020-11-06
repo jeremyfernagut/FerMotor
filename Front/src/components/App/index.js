@@ -1,19 +1,29 @@
-// == Import npm
+// ========= Import npm ===========
 import React from 'react';
 
-// == Import
-import Counter from 'src/containers/Counter';
-import reactLogo from './react-logo.svg';
-import './styles.css';
+// ========= Import ==============
+import Header from '../Header';
+import Footer from '../Footer';
+// import Contact from '../Contact';
+// import NotFound from '../NotFound';
+// import Home from '../Home';
+// import About from '../About';
+// import Intervention from '../Intervention';
 
-// == Composant
-const App = () => (
+import './style.scss';
+
+// ========= Composant ===========
+
+const App = () => {
+
+  return(
   <div className="app">
-    <img src={reactLogo} alt="react logo" />
-    <h1>Composant : App</h1>
-    <Counter />
-  </div>
-);
+    <Header />
 
-// == Export
+    <Footer />
+    
+  </div>
+  )};
+
+// ========= Export ==============
 export default App;
