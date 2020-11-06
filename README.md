@@ -48,5 +48,3 @@ Site vitrine avec un Front en React et un Back en Symfony.
     * Numéro de teléphone 
     * Horaires 
     * Plan d'accés 
-
-
