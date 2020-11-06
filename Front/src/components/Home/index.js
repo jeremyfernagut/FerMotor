@@ -11,6 +11,7 @@ const Home = () => (
 
     
   </div>
-)
+  </div>
+);
 
-export default React;
+export default Home;
