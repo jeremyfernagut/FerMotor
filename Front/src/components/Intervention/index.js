@@ -4,7 +4,7 @@ import './style-desktop.scss';
 
 const Intervention = () => (
 
-    <div>test</div>
+    <div>test services</div>
 );
 
 export default Intervention;

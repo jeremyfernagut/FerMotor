@@ -4,7 +4,7 @@ import './style-desktop.scss';
 
 const About = () => (
 
-    <div>test</div>
+    <div>test a propos</div>
 );
 
 export default About;
