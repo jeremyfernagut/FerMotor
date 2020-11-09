@@ -1,8 +1,7 @@
 export default [
-
   {
     title: 'La menuiserie',
-    img: 'https://cdn.discordapp.com/attachments/691613572014276639/774293646874509322workshop-4863393_640.jpg',
+    img: 'https://cdn.discordapp.com/attachments/691613572014276639/774293646874509322/workshop-4863393_640.jpg',
     description: 'Au service des particuliers et des professionnels, la Menuiserie Robin est reconnuepour son savoir-faire depuis 1987. Notre entreprise travaille régulièrement en partenariat avecdes agences d’architecture et a par ailleurs rejoint en Janvier 2018 le groupement Treppenmeister,spécialiste de l’escalier design sur-mesure.',
   },
 

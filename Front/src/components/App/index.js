@@ -8,10 +8,12 @@ import { Route, Switch} from 'react-router-dom';
 import Header from '../Header';
 import Contact from '../Contact';
 import NotFound from '../NotFound';
-import Home from '../../containers/Card';
+import Home from '../Home';
 import About from '../About';
 import Intervention from '../Intervention';
 import Footer from '../Footer';
+
+import data from '../../data/data'
 
 
 import './style.scss';
@@ -26,7 +28,7 @@ const App = () => (
 
       {/* Route vers l'accueil */}
       <Route exact path="/">
-        <Home />
+        <Home list={data} />
         <Footer />
       </Route>
 
