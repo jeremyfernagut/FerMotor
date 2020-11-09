@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW X6 -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="128px" height="128px" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 129 129"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .str1 {stroke:#0100A3;stroke-width:0.0995643}
+    .str0 {stroke:#0100A3;stroke-width:1.99129}
+    .fil0 {fill:none}
+    .fil1 {fill:#0100A3}
+   ]]>
+  </style>
+ </defs>
+ <g id="Plan_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <rect class="fil0 str0" x="1" y="1" width="127" height="127" rx="26" ry="25"/>
+  <polygon class="fil1 str1" points="18,18 18,18 18,18 99,18 99,9 109,20 119,32 109,43 99,54 99,45 52,45 52,31 42,42 32,54 42,65 52,77 52,63 75,63 75,53 85,65 95,76 85,88 75,99 75,89 45,89 45,119 18,119 "/>
+ </g>
+</svg>
