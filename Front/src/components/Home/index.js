@@ -4,24 +4,22 @@ import './style-desktop.scss';
 
 const Home = ( props ) => {
   const { list } = props;
-  return(
+  return (
     <div className="main">
       <h1 className="main_welcome"> Bienvenue </h1>
+      <div className="card">
       {
         list.map((cardObject) =>(
-       
-            <div className="card">
-        <div className="cardUnit">
-          <h4 className=""> {cardObject.title} </h4>
+        <div className="card_unit">
+          <h4> {cardObject.title} </h4>
           <div className="">
-            <img  src={cardObject.img}/>  
-            </div>
-          <span> {cardObject.description} </span>
+          <img  src={cardObject.img}/>  
+          </div>
+          <p> {cardObject.description} </p>
         </div>
-      </div>
-        
         ))
       }
+      </div>
     </div>
 )};
 
