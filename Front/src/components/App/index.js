@@ -8,10 +8,11 @@ import { Route, Switch} from 'react-router-dom';
 import Header from '../Header';
 import Contact from '../Contact';
 import NotFound from '../NotFound';
-import Home from '../Home';
+import Home from '../../containers/Card';
 import About from '../About';
 import Intervention from '../Intervention';
 import Footer from '../Footer';
+
 
 import './style.scss';
 

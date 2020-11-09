@@ -1,17 +1,22 @@
 import React from 'react';
+import Card from './Card'
 import './style-mobile.scss';
 import './style-desktop.scss';
 
-const Home = () => (
-  <div className="main">
-    <h1 className="main_title"> Bienvenu </h1>
-    <div className="main_corp">
-      <div className=""> La menuiserie </div>
-      <div className=""> L'équipe</div>
-      <div className=""> Nos méthodes</div>
-      <div className=""> Études et devis </div>
-    </div>
-  </div>
-);
+const Home = ( { cards } ) => {
+  console.log(cards);
+    <div className="main">
+      <h1 className="main_welcome"> Bienvenue </h1>
+        {
+         cards.map((cardObject) => (
+         <Card 
+           title={cardObject.title}
+           img={cardObject.img}
+           description={cardObject.description}
+          />
+      ))
+    }
+      </div>
+};
 
 export default Home;
