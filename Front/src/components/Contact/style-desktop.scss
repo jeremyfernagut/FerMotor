@@ -1,3 +1,118 @@
 @media (min-width: 601px) {
     
+    /*
+    * Main
+    */ 
+
+    .contact
+    {
+        height: 100vh;
+    };
+    
+    .contact_title
+    {
+        height: 20%;
+        margin-top: 5%;
+        font-weight: bold;
+        font-size: 1.5rem;
+    };
+
+    .contact_main
+    {
+        display: flex;
+        justify-content: space-evenly;
+    };
+
+
+    /*
+    * Adress
+    */
+    .contact_adress
+    {
+        text-align: left;
+        background-color: beige;
+        width: 25%;
+        margin: 1rem;
+        border-radius: 20px;
+        height: 20%;
+    };
+
+    .adress_title
+    {
+        font-weight: bold;
+        font-size: 1.2rem;
+        padding: 1rem;
+    };
+
+    .adress_text
+    {
+        padding: 1rem;
+    };
+
+    /*
+    * Form
+    */
+    .contact_form
+    {
+        display: grid;
+        background-color: beige;
+        width: 30%;
+        border-radius: 20px;
+    };
+
+    .form_title
+    {
+        font-weight: bold;
+        font-size: 1.2rem;
+        margin: 1rem;
+    };
+
+    .form_name
+    {
+        margin: 1rem;
+        border: none;
+        height: 45px;
+    };
+
+    .form_firstName
+    {
+        margin: 1rem;
+        border: none;
+        height: 45px;
+    };   
+
+    .inputMail
+    {
+        margin: 1rem;
+        border: none;
+        height: 45px;
+    };
+
+    .inputTel
+    {
+        margin: 1rem;
+        border: none;
+        height: 45px;
+    };
+
+    .introText
+    {
+        font-weight: bold;
+        font-size: 1.2rem;
+        margin: 1rem;
+    };
+
+    .text
+    {
+        margin: 1rem;
+        resize: none;
+        height: 135px;
+    };
+
+    .form_contact_buton
+    {
+        margin: 1rem;
+        width: 20%;
+    };
+
 }
