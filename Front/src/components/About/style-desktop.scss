@@ -1,3 +1,39 @@
 @media (min-width: 601px) {
-    
+    .about
+    {
+        height: 100vh;
+    };
+
+    .about_title
+    {
+        height: 20%;
+        margin-top: 5%;
+        font-weight: bold;
+        font-size: 1.5rem;
+    };
+
+    /* 
+    * Corp
+    */
+
+    .about_corp
+    {
+        display: flex;
+        justify-content: space-evenly;
+    };
+
+    .about_text
+    {
+        text-align: left;
+        width: 35%;
+        line-height: 2;
+    };
+
+    .about_img
+    {
+        border-radius: 30px;
+        width: 500px;
+        height: 500px;
+    };
+
 }
