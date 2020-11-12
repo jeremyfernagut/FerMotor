@@ -15,6 +15,9 @@ Site vitrine avec un Front en React et un Back en Symfony.
 - [ X ] Création des wireFrames.
 - [  ] Création du header.
 - [  ] Création du footer.
+- [  ] Création de la page d'accueil.
+- [  ] Création de la page contact.
+- [  ] Création de la page a propos.
 
 ### Déféinition des besoins et des objectifs du projet
 
