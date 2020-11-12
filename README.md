@@ -34,7 +34,13 @@ Site vitrine avec un Front en React et un Back en Symfony.
 
 2. Une page de services
  
-    Page de services présentant les différents services proposés par l'etrenprise **Fermotor**
+    Page de services présentant les différents services proposés par l'entrenprise **Fermotor** : 
+    
+    * Menuiseries extérieures
+    * Portes Garages
+    * Occultations extérieures
+    * Occultations intérieures
+    * Films solaires
 
 3. A propos 
 
