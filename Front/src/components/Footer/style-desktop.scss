@@ -30,17 +30,22 @@
 
     .footer_tel
     {
-    
+        width: 250px;
+        line-height: 2;
     };
 
     .footer_horraire
     {
-
+        width: 250px;
+        line-height: 2;
     };
 
     .footer_adresse
     {
-
+        width: 250px;
+        line-height: 2;
     };
+
+    span:before {content:""; display: block; }
 
 }
