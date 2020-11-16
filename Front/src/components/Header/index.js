@@ -7,7 +7,7 @@ import './style-desktop.scss';
 
 const Header = () => (
   <div className="header">
-    <h1 className="header_title">Fermotor</h1>
+    <h1 id="header_title">Fermotor</h1>
     <div className="link">
       <Link to="/">
         <p className="link_detail"> Accueil </p>

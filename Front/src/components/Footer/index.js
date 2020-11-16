@@ -8,6 +8,7 @@ import './style-desktop.scss';
 // TODO soucis avec le rendu du logo de l'entreprise, voir la graphiste.
 // TODO voir pour faire un button pour remonter en haut de page ? 
 // TODO modifier l'icone pour remonter en haut de page ( voir arrow_up dans le dossier img)
+
 const Footer = () => (
   <div className="footer">
     <h1 className="footer_title"> Nos Coordonnées </h1>
@@ -26,11 +27,11 @@ const Footer = () => (
       <Link to ="/mentions-légales">
         <p>Mentions légales</p>
       </Link>
-      <Link to="/">
-        <div className="footer_legal">
+      <div className="footer_legal">
+        <a href="#header_title">
           <img src={logo} alt="Logo de l'entreprise fermotor" className="footer_logo"/>
-        </div>
-      </Link>
+        </a>
+      </div>
     </div>
   </div>
 )
