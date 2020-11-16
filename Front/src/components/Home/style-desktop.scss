@@ -44,6 +44,7 @@
     {
         line-height: 2;
         width: 640px;
+        margin: auto;
     };
 
     /*
@@ -54,6 +55,8 @@
     {
         margin-left: 25%;
         margin-top: 2%;
+        display: flex;
+        justify-content: space-evenly;
     };
 
     .main_img_rge
@@ -66,7 +69,5 @@
     {
         width: 75%;
         line-height: 1.5;
-        padding-left: 11%;
-        padding-top: 25px;
     };
 }

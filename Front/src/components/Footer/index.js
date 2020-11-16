@@ -29,7 +29,7 @@ const Footer = () => (
       </Link>
       <div className="footer_legal">
         <a href="#header_title">
-          <img src={logo} alt="Logo de l'entreprise fermotor" className="footer_logo"/>
+          <img src={logo} alt="Logo de l'entreprise fermotor" className="footer_logo" />
         </a>
       </div>
     </div>
