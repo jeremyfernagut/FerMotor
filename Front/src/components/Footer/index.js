@@ -10,7 +10,7 @@ import './style-desktop.scss';
 // TODO modifier l'icone pour remonter en haut de page ( voir arrow_up dans le dossier img)
 const Footer = () => (
   <div className="footer">
-    <h1 className="footer_title"> Nos Coordonnées :</h1>
+    <h1 className="footer_title"> Nos Coordonnées </h1>
     <div className="footer_info">
       <div className="footer_contact"> Nous contactez : 
         <a className="footer_tel" href="tel: +33556490863"><i className="fa fa-phone" /> 05.56.49.08.63 </a>
@@ -23,14 +23,13 @@ const Footer = () => (
         <span>07h30-12h30 </span>
       </div>
       <div className="footer_adresse"><i className="fa fa-home" /> 5 rue Pierre Georges Latecoere 33850 Leognan France</div>
-      <div className="footer_legal">
-        <img src={logo} alt="Logo de l'entreprise fermotor" className="footer_logo"/>
-        <Link to ="/mentions-légales">
-          <p>Mentions légales</p>
-        </Link>
-      </div>
+      <Link to ="/mentions-légales">
+        <p>Mentions légales</p>
+      </Link>
       <Link to="/">
-        <i className="fa fa-arrow-up" />
+        <div className="footer_legal">
+          <img src={logo} alt="Logo de l'entreprise fermotor" className="footer_logo"/>
+        </div>
       </Link>
     </div>
   </div>

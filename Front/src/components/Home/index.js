@@ -2,6 +2,8 @@ import React from 'react';
 import './style-mobile.scss';
 import './style-desktop.scss';
 
+// TODO faire les props 
+
 const Home = ( props ) => {
   const { list } = props;
   return (
@@ -14,7 +16,7 @@ const Home = ( props ) => {
               <h4> {cardObject.title} </h4>
               <div className="">
                 <img  
-                 src={cardObject.img}
+                  src={cardObject.img}
                   className="card_img"/>  
               </div>
               <p> {cardObject.description} </p>
