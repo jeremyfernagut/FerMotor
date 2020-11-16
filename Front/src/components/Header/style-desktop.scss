@@ -12,10 +12,17 @@
     * Title
     */
 
-    .header_title 
+    #header_title 
     {
         font-weight: bold;
-        font-size: 2.3rem;
+        font-size: 2.8rem;
+        color: white;
+    }
+
+    .header_logo
+    {
+        width: 50px;
+        margin-right: 2%;
     }
 
     /*
@@ -26,7 +33,7 @@
     {
         display: flex;
         justify-content: space-around;
-        padding-top: 4rem;
+        padding-top: 2%;
     }
 
     .link_detail

@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import logo from '../../assets/images/petit_logo.png';
 import './style-mobile.scss';
 import './style-desktop.scss';
 
@@ -7,7 +8,12 @@ import './style-desktop.scss';
 
 const Header = () => (
   <div className="header">
-    <h1 className="header_title">Fermotor</h1>
+    <div id="header_title">
+      <h1>
+        <img src={logo} alt="Logo de l'entreprise fermotor" className="header_logo" />
+        Fermotor
+      </h1>
+    </div>
     <div className="link">
       <Link to="/">
         <p className="link_detail"> Accueil </p>

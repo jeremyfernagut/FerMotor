@@ -28,8 +28,7 @@ const Home = ( props ) => {
             src="https://cdn.discordapp.com/attachments/776028623555395634/777806104619909170/qualibat-1.png"
             alt="Norme RGE"
             className="main_img_rge" />
-          <p className="main_text_rge">Une société qualifiée QUALIBAT RGE
-            France Menuisiers bénéficie de la qualification QUALIBAT, un gage de la qualité de nos prestations et de notre professionnalisme en tant que fabricant de menuiseries.
+          <p className="main_text_rge">Le label RGE (« Reconnu Garant de l'Environnement ») est un signe de qualité lors de la réalisation de travaux d'économie d'énergie dans les logements (isolation des murs ou de la toiture, installation d'un équipement utilisant une énergie renouvelable, etc.). Il s'agit d'un dispositif reconnu par l'Etat : pour le particulier, le recours à une entreprise RGE pour faire des travaux ouvre droit à l'attribution de certaines aides publiques.
           </p>
         </div> 
       </div>
