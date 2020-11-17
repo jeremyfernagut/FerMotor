@@ -13,7 +13,7 @@
     .contact_title
     {
         height: 20%;
-        margin-top: 5%;
+        margin: 3%;
         font-weight: bold;
         font-size: 1.5rem;
     };
@@ -134,9 +134,6 @@
         &:hover {
           color:white;
           background:  #4D6A79;
-        }
-        &:active {
-          letter-spacing: 2px ;
         }
       }
       
