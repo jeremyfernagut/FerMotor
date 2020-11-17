@@ -16,16 +16,24 @@ const Header = () => (
     </div>
     <div className="link">
       <Link to="/">
-        <p className="link_detail"> Accueil </p>
+        <div className="btn_header">
+          <span>Accueil</span>
+        </div>
       </Link>
       <Link to="/intervention">
-        <p className="link_detail"> Services </p>
+        <div className="btn_header">
+          <span>Services</span>
+        </div>
       </Link>
       <Link to="/contact">
-        <p className="link_detail"> Contact </p>
+        <div className="btn_header">
+          <span>Contact</span>
+        </div>
       </Link>
       <Link to="/about">
-        <p className="link_detail"> A propos </p>
+        <div className="btn_header">
+          <span>A propos</span>
+        </div>
       </Link>
     </div>
   </div>
