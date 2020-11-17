@@ -13,7 +13,7 @@ const Footer = () => (
   <div className="footer">
     <h1 className="footer_title"> Nos Coordonnées </h1>
     <div className="footer_info">
-      <div className="footer_contact"> Nous contactez : 
+      <div className="footer_contact"> Nous contacter : 
         <a className="footer_tel" href="tel: +33556490863"><i className="fa fa-phone" /> 05.56.49.08.63 </a>
         <a className="footer_mail" href="mailto:fermotor@wanadoo.fr"><i className="fa fa-envelope-o" /> fermotor@wanadoo.fr</a>
       </div>

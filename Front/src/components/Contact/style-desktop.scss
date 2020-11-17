@@ -6,7 +6,8 @@
 
     .contact
     {
-        height: 100vh;
+        height: 100%;
+        margin-bottom: 2%;
     };
     
     .contact_title
@@ -29,11 +30,12 @@
     .contact_adress
     {
         text-align: left;
-        background-color: beige;
+        background-color: #4D6A79;
         width: 25%;
-        border-radius: 20px;
         height: 20%;
         line-height: 2;
+        color: white;
+        display: grid;
     };
 
     .adress_title
@@ -54,9 +56,9 @@
     .contact_form
     {
         display: grid;
-        background-color: beige;
+        background-color: #4D6A79;
         width: 30%;
-        border-radius: 20px;
+        color: white;
     };
 
     .form_title
@@ -106,12 +108,37 @@
         margin: 1rem;
         resize: none;
         height: 135px;
+        border-style: none;
     };
 
-    .form_contact_buton
+    /*
+    * Button
+    */
+
+    .button1
     {
+        outline:none;
+        height: 40px;
         margin: 1rem;
-        width: 20%;
-    };
-
+        text-align: center;
+        width: 130px;
+        background: #fff;
+        border: 1px solid ;
+        color: #4D6A79;
+        letter-spacing:1px;
+        text-shadow:0;
+        font-size: 1rem;
+        font-weight: bold;
+        cursor: pointer;
+        transition: all 0.25s ease;
+        &:hover {
+          color:white;
+          background:  #4D6A79;
+        }
+        &:active {
+          letter-spacing: 2px ;
+        }
+      }
+      
+        
 }
