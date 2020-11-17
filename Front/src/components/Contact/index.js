@@ -21,12 +21,12 @@ const Contact = () => (
       />
       <form className="contact_form">
         <h2 className="form_title"> Nous écrire : </h2>
-        <input type="text" className="form_name" placeholder="Votre nom" />
-        <input type="text" className="form_firstName" placeholder="Votre prénom" />
-        <input type="email" className="inputMail" placeholder="Votre email" />
-        <input type="email" className="inputTel" placeholder="Votre téléphone" />
+        <input type="text" className="form_name" placeholder=" Votre nom" />
+        <input type="text" className="form_firstName" placeholder=" Votre prénom" />
+        <input type="email" className="inputMail" placeholder=" Votre email" />
+        <input type="email" className="inputTel" placeholder=" Votre téléphone" />
         <p className="introText"> Demande d'information :</p>
-        <textarea className="text" placeholder="Nous vous écoutons..." />
+        <textarea className="text" placeholder=" Nous vous écoutons..." />
         <button type="submit" className="button1">
           Envoyez
         </button>
