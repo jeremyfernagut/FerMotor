@@ -7,18 +7,18 @@ import './style-desktop.scss';
 
 const Contact = () => (
   <div className="contact">
-    <h2 className="contact_title"> Qui sommes nous ? </h2>
+    <h2 className="contact_title"> Nous contactez : </h2>
     <div className="contact_main">
-      <iframe 
-       src="https://www.google.com/maps/d/u/2/embed?mid=1SzKhNHm6mIsL-cKZ7CeQ_WpTYex0I_iC" width="640" 
-       height="480" 
-      />
       <address className="contact_adress">
         <h3 className="adress_title">Nous contacter :</h3>
         <p className="adress_text">Email : fermotor@wanadoo.fr</p>
         <p className="adress_text">Téléphone : 05.56.49.08.63</p>
-        <p className="adress_text"> Adresse : 5 rue Pierre Georges Latecoere 33850 LEOGNAN </p>
-      </address>
+        <p className="adress_text"> Adresse : 5 rue Pierre Georges Latecoere 33850 Leognan France</p>
+      </address>    
+      <iframe 
+        src="https://www.google.com/maps/d/u/2/embed?mid=1SzKhNHm6mIsL-cKZ7CeQ_WpTYex0I_iC" width="640" 
+        height="480" 
+      />
       <form className="contact_form">
         <h2 className="form_title"> Formulaire : </h2>
         <input type="text" className="form_name" placeholder="Votre nom" />
