@@ -1,3 +1,61 @@
 @media (min-width: 601px) {
-    
+    .intervention
+    {
+
+    };
+
+    .intervention_title
+    {
+        height: 150px;
+        padding: 3%;
+        font-weight: bold;
+        font-size: 2.5rem;
+    };
+
+    /*
+    * Card
+    */ 
+
+    .intervention_card
+    {
+        display: flex;
+        flex-wrap: wrap;
+    };
+
+    .intervention_card_unit
+    {
+        width: 100%;
+        margin: 20px 50px;
+        transition: all 0.25s ease;
+        &:hover {
+          color: black;
+          background-color: rgba(0, 0, 0, 0.04)
+        }
+    };
+
+    /*
+    * Card content
+    */ 
+
+    .intervention_card_title
+    {
+        font-size: 1.5rem;
+        font-weight: bold;
+        padding-bottom: 3%;
+        text-decoration: underline;
+    };
+
+    .intervention_card_img
+    {
+        border-radius: 30px;
+        width: 640px;
+        height: 385px;
+        float: left;
+    };
+
+    .intervention_card_supplier
+    {
+
+    };
+
 }

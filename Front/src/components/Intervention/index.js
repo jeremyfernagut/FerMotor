@@ -20,7 +20,13 @@ const Intervention = ( props ) => {
                   src={cardObject.img}
                   className="intervention_card_img"/>  
               </div>
-              <p className="intervention_card_description"> {cardObject.supplier} </p>
+              <p className="intervention_card_supplier">Fournisseurs :</p>
+              <ul>
+                <li className="intervention_card_detail"> {cardObject.supplier1} </li>
+                <li className="intervention_card_detail"> {cardObject.supplier2} </li>
+                <li className="intervention_card_detail"> {cardObject.supplier3} </li>
+                <li className="intervention_card_detail"> {cardObject.supplier4} </li>
+              </ul>
             </div>
           ))
           }
