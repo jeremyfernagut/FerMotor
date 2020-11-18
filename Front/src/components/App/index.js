@@ -13,7 +13,8 @@ import About from '../About';
 import Intervention from '../Intervention';
 import Footer from '../Footer';
 
-import data from '../../data/data'
+import data from '../../data/data';
+import supplier from '../../data/service';
 
 
 import './style.scss';
@@ -46,7 +47,7 @@ const App = () => (
 
       {/* Route vers intervention */}
       <Route exact path="/intervention">
-        <Intervention />
+        <Intervention list={supplier}/>
         <Footer />
       </Route>
 
