@@ -13,7 +13,11 @@ const Contact = () => (
         <h3 className="adress_title">Nous contacter :</h3>
         <a className="adress_text" href="mailto:fermotor@wanadoo.fr">Email : fermotor@wanadoo.fr</a>
         <a className="adress_text" href="tel: +33556490863">Téléphone : 05.56.49.08.63</a>
-        <p className="adress_text"> Adresse : 5 rue Pierre Georges Latecoere 33850 Leognan France</p>
+        <p className="adress_text"> Adresse :</p>
+        <p className="adress_text_content"> 5 rue Pierre Georges Latecoere 33850 Leognan France</p>
+        <p className="adress_text"> Horaire : </p>
+        <p className="adress_text_content">Lundi-jeudi : 07h30-12h30 et 14h-17h </p>
+        <p className="adress_text_content">Vendredi : 07h30-12h30</p>
       </address>    
       <iframe 
         src="https://www.google.com/maps/d/u/2/embed?mid=1SzKhNHm6mIsL-cKZ7CeQ_WpTYex0I_iC" width="640" 

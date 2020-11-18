@@ -25,7 +25,8 @@ const About = () => (
             Films solaires, films occultants.
           </li>
         </ul>
-        Elle a été rachetée en 2007 par Jacques FOUGERE, l’actuel gérant.Son ancienneté et son savoir-faire lui permet de répondre sur tous types de marchés (particuliers, professionnels et collectivités) et de proposer tous types de produits.</p>
+        Elle a été rachetée en 2007 par Jacques FOUGERE, l’actuel gérant.Son ancienneté et son savoir-faire lui permet de répondre sur tous types de marchés (particuliers, professionnels et collectivités) et de proposer tous types de produits.
+      </p>
       <img 
         src="https://cdn.discordapp.com/attachments/776028623555395634/776028867235676160/photo_fermotor_retouche.jpg"
         alt="L'entreprise Fermotor"
