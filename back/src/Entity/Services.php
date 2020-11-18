@@ -4,6 +4,8 @@ namespace App\Entity;
 
 use App\Repository\ServicesRepository;
 use Doctrine\ORM\Mapping as ORM;
+use Symfony\Component\Serializer\Annotation\Groups;
+
 
 /**
  * @ORM\Entity(repositoryClass=ServicesRepository::class)
@@ -19,16 +21,19 @@ class Services
 
     /**
      * @ORM\Column(type="string", length=255)
+     * @Groups({"services_list"})
      */
     private $title;
 
     /**
      * @ORM\Column(type="string", length=255, nullable=true)
+     * @Groups({"services_list"})
      */
     private $image;
 
     /**
      * @ORM\Column(type="string", length=255, nullable=true)
+     * @Groups({"services_list"})
      */
     private $description;
 
@@ -61,7 +66,7 @@ class Services
 
     public function getImage(): ?string
     {
-        return $this->image;
+        return  $_ENV['URL_IMG_BASE_PATH'].$this->image;
     }
 
     public function setImage(?string $image): self
