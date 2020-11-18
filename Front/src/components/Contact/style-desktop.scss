@@ -50,9 +50,15 @@
         padding: 0.5rem;
     };
 
+    .adress_text_content
+    {
+        padding-left: 4.5rem;
+    };
+
     /*
     * Form
     */
+
     .contact_form
     {
         display: grid;
@@ -109,6 +115,7 @@
         resize: none;
         height: 135px;
         border-style: none;
+        outline: none;
     };
 
     /*
