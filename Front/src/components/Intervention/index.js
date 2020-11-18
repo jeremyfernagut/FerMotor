@@ -2,26 +2,29 @@ import React from 'react';
 import './style-mobile.scss';
 import './style-desktop.scss';
 
+
+// TODO : faire les alt des img 
+
 const Intervention = ( props ) => {
   const { list } = props;
   return (
-    <div>
-      <h1>Services : </h1>
-        <div>
-          {
-            list.map((cardObject) =>(
-              <div className="card_unit">
-              <h4 className="card_title"> {cardObject.title} </h4>
+    <div className="intervention">
+      <h1 className="intervention_title">Services : </h1>
+      <div className="intervention_card">
+        {
+          list.map((cardObject) =>(
+            <div className="intervention_card_unit">
+              <h4 className="intervention_card_title"> {cardObject.title} </h4>
               <div className="">
                 <img  
                   src={cardObject.img}
-                  className="card_img"/>  
+                  className="intervention_card_img"/>  
               </div>
-              <p className="card_description"> {cardObject.supplier} </p>
+              <p className="intervention_card_description"> {cardObject.supplier} </p>
             </div>
-            ))
+          ))
           }
-        </div>
+      </div>
     </div>
   )
 }
