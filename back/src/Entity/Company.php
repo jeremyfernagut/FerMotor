@@ -3,6 +3,8 @@
 namespace App\Entity;
 
 use App\Repository\CompanyRepository;
+use Doctrine\Common\Collections\ArrayCollection;
+use Doctrine\Common\Collections\Collection;
 use Doctrine\ORM\Mapping as ORM;
 
 /**
@@ -36,6 +38,16 @@ class Company
      * @ORM\Column(type="datetime", nullable=true)
      */
     private $updated_at;
+
+    /**
+     * @ORM\OneToMany(targetEntity=Material::class, mappedBy="company")
+     */
+    private $materials;
+
+    public function __construct()
+    {
+        $this->materials = new ArrayCollection();
+    }
 
     public function getId(): ?int
     {
@@ -86,6 +98,36 @@ class Company
     public function setUpdatedAt(?\DateTimeInterface $updated_at): self
     {
         $this->updated_at = $updated_at;
+
+        return $this;
+    }
+
+    /**
+     * @return Collection|Material[]
+     */
+    public function getMaterials(): Collection
+    {
+        return $this->materials;
+    }
+
+    public function addMaterial(Material $material): self
+    {
+        if (!$this->materials->contains($material)) {
+            $this->materials[] = $material;
+            $material->setCompany($this);
+        }
+
+        return $this;
+    }
+
+    public function removeMaterial(Material $material): self
+    {
+        if ($this->materials->removeElement($material)) {
+            // set the owning side to null (unless already changed)
+            if ($material->getCompany() === $this) {
+                $material->setCompany(null);
+            }
+        }
 
         return $this;
     }
