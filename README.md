@@ -18,6 +18,8 @@ Site vitrine avec un Front en React et un Back en Symfony.
 - [  ] Création de la page d'accueil.
 - [  ] Création de la page contact.
 - [  ] Création de la page a propos.
+- [  ] Création de la page services
+- [  ] Création de la page mentions légales.
 
 ### Déféinition des besoins et des objectifs du projet
 
