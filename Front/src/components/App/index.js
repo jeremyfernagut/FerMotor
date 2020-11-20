@@ -12,6 +12,7 @@ import Home from '../Home';
 import About from '../About';
 import Intervention from '../Intervention';
 import Footer from '../Footer';
+import Legal from '../Legal';
 
 import data from '../../data/data';
 import supplier from '../../data/service';
@@ -48,6 +49,11 @@ const App = () => (
       {/* Route vers intervention */}
       <Route exact path="/intervention">
         <Intervention list={supplier}/>
+        <Footer />
+      </Route>
+      {/* Route vers mentions légales */}
+      <Route exact path="/mentions-legales">
+        <Legal />
         <Footer />
       </Route>
 
