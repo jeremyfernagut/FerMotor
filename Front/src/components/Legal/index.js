@@ -5,7 +5,7 @@ import './style-desktop.scss';
 const Legal = () => (
   <div className="legal">
     <h1 className="legal_title">Mentions légales :</h1>
-    <p className="legal_fermotor">La Menuiserie Fermotor est une SARL. au capital de xxxxxx euros, immatriculée au registre du commerce et des sociétés sous le numéro xxxxxx , APE : xxxxxx , N° de TVA intracommunautaire : xxxxxx , joignable par mail : fermotor@wanadoo.fr</p>
+    <p className="legal_fermotor">La Menuiserie Fermotor est une SARL. au capital de 340.000 euros, immatriculée au registre du commerce et des sociétés sous le numéro  326 016 367 000 53  , APE : 4332 A , N° de TVA intracommunautaire :  FR 53 326 016 367 , joignable par mail : fermotor@wanadoo.fr</p>
     <p className="legal_fermotor">Le siège social se situe à l’adresse suivante :</p>
     <p className="legal_fermotor">5 rue Pierre Georges Latecoere 33850 Leognan France</p>
     <h2 className="legal_conception_title">Conception et réalisation du site :</h2>
