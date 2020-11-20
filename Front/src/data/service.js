@@ -21,20 +21,24 @@ export default [
     id: '3',
     title: 'Menuiserie Pvc :',
     img: 'https://cdn.discordapp.com/attachments/778173311783403560/778558872365039626/5444578593_e0a262a4ab_z.jpg',
-    supplier: ' Prefal – Saint André de Cubzac SAVS – Toulouse Ideal PVC – Proche Toulouse',
+    supplier1: ' Prefal – Saint André de Cubzac SAVS',
+    supplier2: 'Toulouse Ideal PVC – Proche Toulouse',
   },
 
   {
     id: '4',
     title: 'Volets roulants, porte de garage et portail :',
     img: 'https://cdn.discordapp.com/attachments/778173311783403560/778556521231417344/porte_garage_1.jpg',
-    supplier: ' GAB33 – Mérignac France Fermetures – Proche Montluçon'
+    supplier1: ' GAB33 – Mérignac',
+    supplier2: ' France Fermetures – Proche Montluçon',
   },
 
   {
     id: '5',
     title: ' Stores, brise-soleil et rideaux : ',
     img: 'https://cdn.discordapp.com/attachments/778173311783403560/778560277301035008/volets-stores.jpg',
-    supplier: ' La Venitienne –  Proche Angoulême ABW/Enjoyourspace – Proche Nantes France Fermetures – Proche Montluçon',
+    supplier1: ' La Venitienne –  Proche Angoulême',
+    supplier2: ' Enjoyourspace – Proche Nantes ',
+    supplier3: ' ABWFrance Fermetures – Proche Montluçon',
   }
 ]
