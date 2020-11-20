@@ -2,15 +2,13 @@
 
 namespace App\Entity;
 
-use App\Repository\ServicesRepository;
+use App\Repository\CompanyRepository;
 use Doctrine\ORM\Mapping as ORM;
-use Symfony\Component\Serializer\Annotation\Groups;
-
 
 /**
- * @ORM\Entity(repositoryClass=ServicesRepository::class)
+ * @ORM\Entity(repositoryClass=CompanyRepository::class)
  */
-class Services
+class Company
 {
     /**
      * @ORM\Id
@@ -21,21 +19,13 @@ class Services
 
     /**
      * @ORM\Column(type="string", length=255)
-     * @Groups({"services_list"})
      */
-    private $title;
+    private $name;
 
     /**
-     * @ORM\Column(type="string", length=255, nullable=true)
-     * @Groups({"services_list"})
+     * @ORM\Column(type="string", length=255)
      */
-    private $image;
-
-    /**
-     * @ORM\Column(type="text", length=255, nullable=true)
-     * @Groups({"services_list"})
-     */
-    private $description;
+    private $location;
 
     /**
      * @ORM\Column(type="datetime")
@@ -52,38 +42,26 @@ class Services
         return $this->id;
     }
 
-    public function getTitle(): ?string
+    public function getName(): ?string
     {
-        return $this->title;
+        return $this->name;
     }
 
-    public function setTitle(string $title): self
+    public function setName(string $name): self
     {
-        $this->title = $title;
+        $this->name = $name;
 
         return $this;
     }
 
-    public function getImage(): ?string
+    public function getLocation(): ?string
     {
-        return  $_ENV['URL_IMG_BASE_PATH'].$this->image;
+        return $this->location;
     }
 
-    public function setImage(?string $image): self
+    public function setLocation(string $location): self
     {
-        $this->image = $image;
-
-        return $this;
-    }
-
-    public function getDescription(): ?string
-    {
-        return $this->description;
-    }
-
-    public function setDescription(?string $description): self
-    {
-        $this->description = $description;
+        $this->location = $location;
 
         return $this;
     }
