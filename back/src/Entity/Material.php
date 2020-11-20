@@ -32,6 +32,12 @@ class Material
      */
     private $updated_at;
 
+    /**
+     * @ORM\ManyToOne(targetEntity=Company::class, inversedBy="materials")
+     * @ORM\JoinColumn(nullable=false)
+     */
+    private $company;
+
     public function getId(): ?int
     {
         return $this->id;
@@ -69,6 +75,18 @@ class Material
     public function setUpdatedAt(?\DateTimeInterface $updated_at): self
     {
         $this->updated_at = $updated_at;
+
+        return $this;
+    }
+
+    public function getCompany(): ?Company
+    {
+        return $this->company;
+    }
+
+    public function setCompany(?Company $company): self
+    {
+        $this->company = $company;
 
         return $this;
     }
