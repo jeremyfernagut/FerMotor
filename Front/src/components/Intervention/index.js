@@ -5,7 +5,7 @@ import './style-desktop.scss';
 
 // TODO : faire les alt des img 
 
-const Intervention = ( props ) => {
+const Intervention = (props) => {
   const { list } = props;
   return (
     <div className="intervention">
@@ -20,13 +20,13 @@ const Intervention = ( props ) => {
       </ul>
       <div className="intervention_card">
         {
-          list.map((cardObject) =>(
+          list.map((cardObject) => (
             <div className="intervention_card_unit">
               <h4 className="intervention_card_title"> {cardObject.title} </h4>
               <div className="">
-                <img  
+                <img
                   src={cardObject.img}
-                  className="intervention_card_img"/>  
+                  className="intervention_card_img" />
               </div>
               <p className="intervention_card_supplier">Fournisseurs :</p>
               <ul>
@@ -37,7 +37,7 @@ const Intervention = ( props ) => {
               </ul>
             </div>
           ))
-          }
+        }
       </div>
     </div>
   )
