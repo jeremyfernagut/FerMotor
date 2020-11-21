@@ -1,7 +1,7 @@
 // ========= Import npm ===========
 
 import React from 'react';
-import { Route, Switch} from 'react-router-dom';
+import { Route, Switch } from 'react-router-dom';
 
 // ========= Import ==============
 
@@ -26,47 +26,47 @@ const App = () => (
   <div className="app">
     <Header />
     <div className="test">
-    <Switch>
+      <Switch>
 
-      {/* Route vers l'accueil */}
-      <Route exact path="/">
-        <Home list={data} />
-        <Footer />
-      </Route>
+        {/* Route vers l'accueil */}
+        <Route exact path="/">
+          <Home list={data} />
+          <Footer />
+        </Route>
 
-      {/* Route vers la page contact */}
-      <Route exact path="/contact">
-        <Contact />
-        <Footer />
-      </Route>
+        {/* Route vers la page contact */}
+        <Route exact path="/contact">
+          <Contact />
+          <Footer />
+        </Route>
 
-      {/* Route vers la page about */}
-      <Route exact path="/about">
-        <About />
-        <Footer />
-      </Route>
+        {/* Route vers la page about */}
+        <Route exact path="/about">
+          <About />
+          <Footer />
+        </Route>
 
-      {/* Route vers intervention */}
-      <Route exact path="/intervention">
-        <Intervention list={supplier}/>
-        <Footer />
-      </Route>
-      {/* Route vers mentions légales */}
-      <Route exact path="/mentions-legales">
-        <Legal />
-        <Footer />
-      </Route>
+        {/* Route vers intervention */}
+        <Route exact path="/intervention">
+          <Intervention list={supplier} />
+          <Footer />
+        </Route>
+        {/* Route vers mentions légales */}
+        <Route exact path="/mentions-legales">
+          <Legal />
+          <Footer />
+        </Route>
 
-      {/* Route vers la page 404 */}
-      <Route exact path="/notfound">
-        <NotFound />
-        <Footer />
-      </Route>
-    </Switch>
-    
+        {/* Route vers la page 404 */}
+        <Route>
+          <NotFound />
+          <Footer />
+        </Route>
+
+      </Switch>
     </div>
   </div>
-  );
+);
 
 // ========= Export ==============
 export default App;

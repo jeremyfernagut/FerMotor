@@ -18,10 +18,10 @@ const Contact = () => (
         <p className="adress_text"> Horaire : </p>
         <p className="adress_text_content">Lundi-jeudi : 07h30-12h30 et 14h-17h </p>
         <p className="adress_text_content">Vendredi : 07h30-12h30</p>
-      </address>    
-      <iframe 
-        src="https://www.google.com/maps/d/u/2/embed?mid=1SzKhNHm6mIsL-cKZ7CeQ_WpTYex0I_iC" width="640" 
-        height="480" 
+      </address>
+      <iframe
+        src="https://www.google.com/maps/d/u/2/embed?mid=1SzKhNHm6mIsL-cKZ7CeQ_WpTYex0I_iC" width="640"
+        height="480"
       />
       <form className="contact_form">
         <h2 className="form_title"> Nous écrire : </h2>

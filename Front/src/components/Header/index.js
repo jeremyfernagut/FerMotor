@@ -4,7 +4,7 @@ import logo from '../../assets/images/petit_logo.png';
 import './style-mobile.scss';
 import './style-desktop.scss';
 
-// TODO ajouter les nav link une fois que les routes seront crées.
+// // TODO ajouter les nav link une fois que les routes seront crées.
 
 const Header = () => (
   <div className="header">
