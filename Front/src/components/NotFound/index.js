@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import './style-mobile.scss';
 import './style-desktop.scss';
 
+// TODO : verifier la version mobile css pour le text
 const NotFound = () => (
 
   <div className="notFound">
