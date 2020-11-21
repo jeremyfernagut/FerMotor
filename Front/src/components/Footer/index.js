@@ -8,6 +8,7 @@ import './style-desktop.scss';
 // // TODO soucis avec le rendu du logo de l'entreprise, voir la graphiste.
 // // TODO voir pour faire un button pour remonter en haut de page ? 
 // // TODO modifier l'icone pour remonter en haut de page ( voir arrow_up dans le dossier img)
+// TODO revoir en fonction de la largeur d'écran entre 600 et 800 +- px
 
 const Footer = () => (
   <div className="footer">
@@ -25,7 +26,7 @@ const Footer = () => (
       </div>
       <div className="footer_adresse"><i className="fa fa-home" /> 5 rue Pierre Georges Latecoere 33850 Leognan France</div>
       <Link to ="/mentions-legales">
-        <p>Mentions légales</p>
+        <p className="mention_legal_link">Mentions légales</p>
       </Link>
       <div className="footer_legal">
         <a href="#header_title">
