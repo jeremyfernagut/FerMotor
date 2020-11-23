@@ -62,13 +62,13 @@ const Contact = () => {
           <input
             type="text"
             className="form_name"
-            placeholder=" Votre nom, prénom"
+            placeholder="Votre nom, prénom"
             name="name"
             onChange={(e) => setName(e.target.value)}
             value={name}
             autoComplete="off"
           />
-          <div className="email-content">
+          <div className="email_content">
             <label id="not-mail">Email non valide</label>
             <input
               className="inputMail"
@@ -76,14 +76,14 @@ const Contact = () => {
               id="email"
               name="email"
               onChange={(e) => setEmail(e.target.value)}
-              placeholder="email *"
+              placeholder="Email *"
               value={email}
               autoComplete="off"
             />
             <input
               type="text"
               className="inputTel"
-              placeholder=" Votre téléphone"
+              placeholder="Votre téléphone"
               name="phone"
               onChange={(e) => setPhone(e.target.value)}
               value={phone}
@@ -91,7 +91,7 @@ const Contact = () => {
             <p className="introText"> Demande d'information :</p>
             <textarea
               className="text"
-              placeholder=" Nous vous écoutons."
+              placeholder="Nous vous écoutons."
               name="message"
               onChange={(e) => setMessage(e.target.value)}
               value={message}

@@ -79,20 +79,34 @@
         margin: 1rem;
         border: none;
         height: 45px;
+        padding-left: 5px;
     };
 
-    .form_firstName
-    {
-        margin: 1rem;
-        border: none;
-        height: 45px;
-    };   
+    /*
+    * Email
+    */
 
     .inputMail
     {
         margin: 1rem;
         border: none;
         height: 45px;
+        padding-left: 5px;
+    };
+
+    #not-mail 
+    {
+        display: none;
+        position: absolute;
+        top: 4px;
+        color: #ff4d4d;
+        right: 0;
+        transform-origin: 50% 50%;
+    };
+    
+    .email_content
+    {
+        display: grid;
     };
 
     .inputTel
@@ -100,6 +114,7 @@
         margin: 1rem;
         border: none;
         height: 45px;
+        padding-left: 5px;
     };
 
     .introText
@@ -116,6 +131,7 @@
         height: 135px;
         border-style: none;
         outline: none;
+        padding-left: 5px;
     };
 
     /*
