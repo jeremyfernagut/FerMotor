@@ -3,7 +3,7 @@ import './style-mobile.scss';
 import './style-desktop.scss';
 
 // TODO : voir pour le Css
-// TODO : voir pour l'envoi de formulaire
+
 
 const Contact = () => {
   const [name, setName] = useState("");
@@ -11,15 +11,64 @@ const Contact = () => {
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
 
+  const isEmail = () => {
+    let mail = document.getElementById('not-mail')
+    let regex = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/;
+
+    if (email.match(regex)) {
+      mail.style.desplay = 'none';
+      return true;
+    } else {
+      mail.style.display = 'block';
+      mail.style.animation = 'dongle 1s';
+      setTimeout(() => {
+        mail.style.animation = 'none';
+      }, 1000);
+      return false;
+    }
+  }
+
+  const failMessage = () => {
+    let formMess = document.querySelector('.form_message');
+
+    formMess.innerHTML = ' Merci de remplir correctement les champs requis * '
+    formMess.style.opacity = '1';
+    formMess.style.background = 'rgb(253,87,87)';
+
+    document.getElementById('name').classList.add('error');
+    document.getElementById('email').classList.add('error');
+    document.getElementById('message').classList.add('error');
+  };
+
+  const successMessage = () => {
+    let formMess = document.querySelector('.form_message');
+
+    formMess.innerHTML= 'Message envoyé ! Nous vous recontacterons dès que possible.';
+    formMess.style.background= '#34A853';
+    formMess.style.opacity='1';
+
+    document.getElementById('name').classList.remove('error');
+    document.getElementById('email').classList.remove('error');
+    document.getElementById('message').classList.remove('error');
+
+    setTimeout(() => {
+      formMess.style.opacity= '0';
+    }, 5000);
+  }
+
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    sendFeedback("template_qkkbzuo", {
-      name,
-      phone,
-      email,
-      message,
-    });
+    if (name && isEmail() && message) {
+      sendFeedback("template_qkkbzuo", {
+        name,
+        phone,
+        email,
+        message,
+      });
+    } else {
+      failMessage();
+    }
   };
 
   const sendFeedback = (templateId, variables) => {
@@ -27,7 +76,7 @@ const Contact = () => {
     window.emailjs
       .send("gmail", templateId, variables)
       .then((res) => {
-        console.log('success !');
+        successMessage();
         setName("");
         setPhone("");
         setEmail("");
@@ -35,7 +84,7 @@ const Contact = () => {
       })
       .catch(
         (err) =>
-          document.querySelector('.form-message').innerHTML =
+          document.querySelector('.form_message').innerHTML =
           "Une erreur s'est produite, veuillez réessayer.")
   };
 
@@ -62,7 +111,8 @@ const Contact = () => {
           <input
             type="text"
             className="form_name"
-            placeholder="Votre nom, prénom"
+            placeholder="Votre nom, prénom *"
+            id="name"
             name="name"
             onChange={(e) => setName(e.target.value)}
             value={name}
@@ -91,8 +141,9 @@ const Contact = () => {
             <p className="introText"> Demande d'information :</p>
             <textarea
               className="text"
-              placeholder="Nous vous écoutons."
+              placeholder="Nous vous écoutons. *"
               name="message"
+              id="message"
               onChange={(e) => setMessage(e.target.value)}
               value={message}
             />
@@ -103,6 +154,7 @@ const Contact = () => {
               onClick={handleSubmit}
             />
           </div>
+          <div className="form_message" />
         </form>
       </div>
     </div>
