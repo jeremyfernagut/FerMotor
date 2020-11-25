@@ -8,6 +8,7 @@
     {
         height: 150px;
         padding-top: 7%;
+        padding-bottom: 7%;
         font-weight: bold;
         font-size: 2.5rem;
     };
@@ -20,8 +21,9 @@
 
     .card_unit
     {
-        width: 44%;
-        margin: 20px 50px;
+        
+        margin-right: auto;
+        margin-left: auto;
         transition: all 0.25s ease;
         &:hover {
           color: black;
