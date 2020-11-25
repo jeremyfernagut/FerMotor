@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import './style-mobile.scss';
 import './style-desktop.scss';
 
-// TODO : voir pour le Css
+// TODO : voir pour le CSS soucis entre 600 et 700 px
 
 
 const Contact = () => {
@@ -103,8 +103,7 @@ const Contact = () => {
           <p className="adress_text_content">Vendredi : 07h30-12h30</p>
         </address>
         <iframe
-          src="https://www.google.com/maps/d/u/2/embed?mid=1SzKhNHm6mIsL-cKZ7CeQ_WpTYex0I_iC" width="640"
-          height="480"
+          src="https://www.google.com/maps/d/u/2/embed?mid=1SzKhNHm6mIsL-cKZ7CeQ_WpTYex0I_iC"
         />
         <form className="contact_form">
           <h2 className="form_title"> Nous écrire : </h2>
