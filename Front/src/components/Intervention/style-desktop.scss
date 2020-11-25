@@ -1,7 +1,7 @@
 @media (min-width: 601px) {
     .intervention
     {
-
+        padding-bottom: 5%;
     };
 
     .intervention_title
@@ -14,17 +14,15 @@
 
     .intervention_text
     {
-        width: 30%;
+        width: 100%;
         line-height: 1.5;
-        margin-left: 35%;
     };
 
     .intervention_ul 
     {
         list-style: inside;
         text-align: left;
-        margin-left: 37%;
-        padding: 2%;
+        padding: 2% 35%;
         line-height: 1.5;
     };
 
@@ -41,7 +39,7 @@
     .intervention_card_unit
     {
         width: 100%;
-        margin: 20px 50px;
+        margin: 20px 25px;
         transition: all 0.25s ease;
         &:hover {
           color: black;
@@ -63,8 +61,7 @@
 
     .intervention_card_img
     {
-        margin-left: 5%;
-        width: 640px;
+        width: 550px;
         height: 385px;
         float: left;
         margin-bottom: 5%;
