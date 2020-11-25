@@ -52,7 +52,7 @@ const Contact = () => {
     document.getElementById('message').classList.remove('error');
 
     setTimeout(() => {
-      formMess.style.opacity= '0';
+      formMess.style.opacity = '0';
     }, 5000);
   }
 
@@ -60,7 +60,7 @@ const Contact = () => {
     e.preventDefault();
 
     if (name && isEmail() && message) {
-      sendFeedback("template_qkkbzuo", {
+      sendFeedback('template_qkkbzuo', {
         name,
         phone,
         email,
@@ -74,13 +74,13 @@ const Contact = () => {
   const sendFeedback = (templateId, variables) => {
 
     window.emailjs
-      .send("gmail", templateId, variables)
+      .send('gmail', templateId, variables)
       .then((res) => {
         successMessage();
-        setName("");
-        setPhone("");
-        setEmail("");
-        setMessage("");
+        setName(' ');
+        setPhone(' ');
+        setEmail(' ');
+        setMessage(' ');
       })
       .catch(
         (err) =>
@@ -103,6 +103,7 @@ const Contact = () => {
           <p className="adress_text_content">Vendredi : 07h30-12h30</p>
         </address>
         <iframe
+          title="carte indiquant l'emplacement de fermotor"
           src="https://www.google.com/maps/d/u/2/embed?mid=1SzKhNHm6mIsL-cKZ7CeQ_WpTYex0I_iC"
         />
         <form className="contact_form">

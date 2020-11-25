@@ -26,7 +26,9 @@ const Intervention = (props) => {
               <div className="">
                 <img
                   src={cardObject.img}
-                  className="intervention_card_img" />
+                  className="intervention_card_img" 
+                  alt={cardObject.alt}
+                />
               </div>
               <p className="intervention_card_supplier">Fournisseurs :</p>
               <ul>
