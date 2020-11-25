@@ -14,7 +14,7 @@ const Home = (props) => {
           list.map((cardObject) => (
             <div className="card_unit">
               <h4 className="card_title"> {cardObject.title} </h4>
-              <div className="">
+              <div className="card_img_div">
                 <img
                   src={cardObject.img}
                   className="card_img" />
