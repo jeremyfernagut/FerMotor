@@ -2,14 +2,14 @@ import React, { useState } from 'react';
 import './style-mobile.scss';
 import './style-desktop.scss';
 
-// TODO : voir pour le Css
+// TODO : voir pour le CSS soucis entre 600 et 700 px
 
 
 const Contact = () => {
-  const [name, setName] = useState("");
-  const [phone, setPhone] = useState("");
-  const [email, setEmail] = useState("");
-  const [message, setMessage] = useState("");
+  const [name, setName] = useState('');
+  const [phone, setPhone] = useState('');
+  const [email, setEmail] = useState('');
+  const [message, setMessage] = useState('');
 
   const isEmail = () => {
     let mail = document.getElementById('not-mail')
@@ -52,7 +52,7 @@ const Contact = () => {
     document.getElementById('message').classList.remove('error');
 
     setTimeout(() => {
-      formMess.style.opacity= '0';
+      formMess.style.opacity = '0';
     }, 5000);
   }
 
@@ -60,7 +60,7 @@ const Contact = () => {
     e.preventDefault();
 
     if (name && isEmail() && message) {
-      sendFeedback("template_qkkbzuo", {
+      sendFeedback('template_qkkbzuo', {
         name,
         phone,
         email,
@@ -74,13 +74,13 @@ const Contact = () => {
   const sendFeedback = (templateId, variables) => {
 
     window.emailjs
-      .send("gmail", templateId, variables)
+      .send('gmail', templateId, variables)
       .then((res) => {
         successMessage();
-        setName("");
-        setPhone("");
-        setEmail("");
-        setMessage("");
+        setName(' ');
+        setPhone(' ');
+        setEmail(' ');
+        setMessage(' ');
       })
       .catch(
         (err) =>
@@ -103,8 +103,8 @@ const Contact = () => {
           <p className="adress_text_content">Vendredi : 07h30-12h30</p>
         </address>
         <iframe
-          src="https://www.google.com/maps/d/u/2/embed?mid=1SzKhNHm6mIsL-cKZ7CeQ_WpTYex0I_iC" width="640"
-          height="480"
+          title="carte indiquant l'emplacement de fermotor"
+          src="https://www.google.com/maps/d/u/2/embed?mid=1SzKhNHm6mIsL-cKZ7CeQ_WpTYex0I_iC"
         />
         <form className="contact_form">
           <h2 className="form_title"> Nous écrire : </h2>
