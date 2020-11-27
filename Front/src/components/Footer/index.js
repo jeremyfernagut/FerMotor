@@ -25,7 +25,7 @@ const Footer = () => (
         <span>07h30-12h30 </span>
       </div>
       <div className="footer_adresse"><i className="fa fa-home" /> 5 rue Pierre Georges Latecoere 33850 Leognan France</div>
-      <Link to ="/mentions-legales">
+      <Link to="/mentions-legales">
         <p className="mention_legal_link">Mentions légales</p>
       </Link>
       <div className="footer_legal">
