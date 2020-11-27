@@ -6,10 +6,10 @@ import './style-desktop.scss';
 
 
 const Contact = () => {
-  const [name, setName] = useState("");
-  const [phone, setPhone] = useState("");
-  const [email, setEmail] = useState("");
-  const [message, setMessage] = useState("");
+  const [name, setName] = useState('');
+  const [phone, setPhone] = useState('');
+  const [email, setEmail] = useState('');
+  const [message, setMessage] = useState('');
 
   const isEmail = () => {
     let mail = document.getElementById('not-mail')
