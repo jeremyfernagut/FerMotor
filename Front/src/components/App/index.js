@@ -25,7 +25,7 @@ import './style.scss';
 const App = () => (
   <div className="app">
     <Header />
-    <div className="test">
+    <div className="app_page">
       <Switch>
 
         {/* Route vers l'accueil */}

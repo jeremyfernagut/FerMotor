@@ -3,8 +3,6 @@ import './style-mobile.scss';
 import './style-desktop.scss';
 
 
-// TODO : faire les alt des img 
-
 const Intervention = (props) => {
   const { list } = props;
   return (

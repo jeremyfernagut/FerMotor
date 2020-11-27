@@ -1,8 +1,4 @@
 @media (min-width: 601px) {
-    .main
-    {
-        
-    };
 
     .main_welcome
     {
@@ -17,17 +13,17 @@
     {
         display: flex;
         flex-wrap: wrap;
+        justify-content: space-evenly;
     };
 
     .card_unit
-    {
-        
-        margin-right: auto;
-        margin-left: auto;
+    { 
+        width: 750px;
+        padding: 1%;
         transition: all 0.25s ease;
         &:hover {
           color: black;
-          background-color: rgba(0, 0, 0, 0.04)
+          background-color:white;
         }
     };
 
@@ -40,10 +36,9 @@
 
     .card_img 
     {
-        border-radius: 30px;
         width: 640px;
         height: 385px;
-
+        padding: 1%;
     };
 
     .card_description
@@ -59,7 +54,8 @@
 
     .main_rge
     {
-        margin-left: 25%;
+        padding-left: 25%;
+        padding-top: 2%;
         margin-top: 2%;
         display: flex;
         justify-content: space-evenly;
