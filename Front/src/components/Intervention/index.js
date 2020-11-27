@@ -30,10 +30,10 @@ const Intervention = (props) => {
               </div>
               <p className="intervention_card_supplier">Fournisseurs :</p>
               <ul>
-                <li className="intervention_card_detail"> {cardObject.supplier1} </li>
-                <li className="intervention_card_detail"> {cardObject.supplier2} </li>
-                <li className="intervention_card_detail"> {cardObject.supplier3} </li>
-                <li className="intervention_card_detail"> {cardObject.supplier4} </li>
+                <li className="intervention_card_detail"><a href={cardObject.site1}>{cardObject.supplier1} </a></li>
+                <li className="intervention_card_detail"><a href={cardObject.site2}>{cardObject.supplier2} </a></li>
+                <li className="intervention_card_detail"><a href={cardObject.site3}>{cardObject.supplier3} </a></li>
+                <li className="intervention_card_detail"><a href={cardObject.site4}>{cardObject.supplier4} </a></li>
               </ul>
             </div>
           ))

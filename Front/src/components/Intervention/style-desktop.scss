@@ -10,6 +10,7 @@
         padding: 3%;
         font-weight: bold;
         font-size: 2.5rem;
+        color: #4d6a79;
     };
 
     .intervention_text
@@ -58,6 +59,7 @@
         font-weight: bold;
         padding: 3%;
         text-decoration: underline;
+        color: #4d6a79;
     };
 
     .intervention_card_img
@@ -74,11 +76,24 @@
         font-size: 1.2rem;
         font-weight: bold;
         padding: 1rem;
+        color: #4d6a79;
     };
 
     .intervention_card_detail
     {
         line-height: 2;
+        list-style: none;
+        border-left: 2px solid #4d6a79;
+        text-align: left;
+        margin-left: 58%;
+        width: 17%;
+        padding-left: 1%;
+        cursor: pointer;
+        transition: all 0.25s ease;
+        &:hover {
+          color:white;
+          background:  #4D6A79;
+        }
     };
 
 

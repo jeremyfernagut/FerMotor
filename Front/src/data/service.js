@@ -4,10 +4,14 @@ export default [
     title: 'Menuiserie Alu :',
     img: 'https://cdn.discordapp.com/attachments/778173311783403560/778555708589342770/pexels-expect-best-323776.jpg',
     alt: 'Présentation des menuiseries alu',
-    supplier1: ' Prod Alu 33',
+    supplier1: 'Prod Alu 33',
     supplier2: 'Prefal – Saint André de Cubzac',
-    supplier3: 'FMA – Proche Nantes',
-    supplier4: 'K-line – Proche Nantes',
+    supplier3: 'FMA – Nantes',
+    supplier4: 'K-line – Nantes',
+    site1: '',
+    site2: 'https://www.prefal.fr/societe',
+    site3: 'https://www.fma-f2m.fr/',
+    site4: 'https://www.k-line.fr/index.aspx',
   },
 
   {
@@ -15,8 +19,10 @@ export default [
     title: 'Menuiserie Acier :',
     img: 'https://cdn.discordapp.com/attachments/778173311783403560/778558215574913074/stairs-1229149_640.jpg',
     alt: 'Présentation des menuiseries acier',
-    supplier1: ' F2M – Proche Nantes',
-    supplier2: ' VD industry – Proche Strasbourg',
+    supplier1: ' F2M – Nantes',
+    supplier2: ' VD industry – Strasbourg',
+    site1: '',
+    site2: 'https://vd-industry.eu/fr/',
   },
 
   {
@@ -25,7 +31,9 @@ export default [
     img: 'https://cdn.discordapp.com/attachments/778173311783403560/778558872365039626/5444578593_e0a262a4ab_z.jpg',
     alt: 'Présentation des menuiserie pvc',
     supplier1: ' Prefal – Saint André de Cubzac SAVS',
-    supplier2: 'Toulouse Ideal PVC – Proche Toulouse',
+    supplier2: 'Toulouse Ideal PVC – Toulouse',
+    site1: 'https://www.prefal.fr/societe',
+    site2: '',
   },
 
   {
@@ -34,7 +42,9 @@ export default [
     img: 'https://cdn.discordapp.com/attachments/778173311783403560/778556521231417344/porte_garage_1.jpg',
     alt: 'Présentation des portes de garage',
     supplier1: ' GAB33 – Mérignac',
-    supplier2: ' France Fermetures – Proche Montluçon',
+    supplier2: ' France Fermetures – Montluçon',
+    site1: 'https://www.gab33.com/fr/index.php',
+    site2: 'https://www.france-fermetures.fr/',
   },
 
   {
@@ -42,8 +52,11 @@ export default [
     title: ' Stores, brise-soleil et rideaux : ',
     img: 'https://cdn.discordapp.com/attachments/778173311783403560/778560277301035008/volets-stores.jpg',
     alt: 'Présentation des stores',
-    supplier1: ' La Venitienne –  Proche Angoulême',
-    supplier2: ' Enjoyourspace – Proche Nantes ',
-    supplier3: ' ABWFrance Fermetures – Proche Montluçon',
+    supplier1: ' La Venitienne –  Angoulême',
+    supplier2: ' Enjoyourspace – Nantes ',
+    supplier3: ' ABWFrance Fermetures –Montluçon',
+    site1: 'https://www.la-venitienne.fr/',
+    site2: 'https://enjoyourspace.com/le-groupe-enjoyourspace/',
+    site3: 'https://www.france-fermetures.fr/trouver-un-professionnel',
   },
 ];
