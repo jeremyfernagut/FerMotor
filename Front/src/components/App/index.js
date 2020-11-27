@@ -22,8 +22,8 @@ import './style.scss';
 
 // ========= Composant ===========
 
-// TODO HOME : travailler sur le visuel ( verifier le responsive ) et faire les key props & les props.
-// TODO INTERVENTION : travailler sur le visuel ( faire la version responsive ) et faire les key props & les props.
+// TODO HOME : travailler sur le visuel ( verifier le responsive ) et faire les props.
+// TODO INTERVENTION : travailler sur le visuel ( faire la version responsive ) et faire les props.
 // TODO INTERVENTION : Voir pour ajouter des bouttons qui relis vers les sites des fournisseurs ? 
 // TODO CONTACT : Verifier la version responsive (mobile ).
 // TODO CONTACT : Lier l'adresse mail orange de l'entreprise au formulaire de contact.

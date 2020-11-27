@@ -12,7 +12,7 @@ const Home = (props) => {
       <div className="card">
         {
           list.map((cardObject) => (
-            <div className="card_unit">
+            <div className="card_unit" key={cardObject.id}>
               <h4 className="card_title"> {cardObject.title} </h4>
               <div className="card_img_div">
                 <img
