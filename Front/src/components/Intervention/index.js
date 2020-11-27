@@ -19,7 +19,7 @@ const Intervention = (props) => {
       <div className="intervention_card">
         {
           list.map((cardObject) => (
-            <div className="intervention_card_unit">
+            <div className="intervention_card_unit" key={cardObject.id}>
               <h4 className="intervention_card_title"> {cardObject.title} </h4>
               <div className="">
                 <img
