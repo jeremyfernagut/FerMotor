@@ -3,7 +3,7 @@ export default [
     id: '1',
     title: 'Fermotor',
     img: 'https://cdn.discordapp.com/attachments/776028623555395634/776028867235676160/photo_fermotor_retouche.jpg',
-    description: 'La Sarl FERMOTOR  a été créée en 1983 par M FONTES. Elle est spécialisée dans la fourniture et la pose de fermetures du bâtiment (menuiseries Aluminium, PVC, bois et acier, rideaux métalliques, volets battants et roulants, portails, clôtures, murs rideaux etc.…)Elle a été rachetée en 2007 par Jacques FOUGERE, l’actuel  gérant.Son ancienneté et son savoir-faire lui permet de répondre sur tous types de marchés (particuliers, professionnels et collectivités) et de proposer tous types de produits.',
+    description: 'La Sarl FERMOTOR est spécialisée dans la fourniture et la pose de fermetures du bâtiment (menuiseries Aluminium, PVC, bois et acier, rideaux métalliques, volets battants et roulants, portails, clôtures, murs rideaux etc.…) notre savoir-faire nous permet de répondre sur tous types de marchés (particuliers, professionnels et collectivités) et de proposer tous types de produits.',
     alt: 'Batiment de Fermotor',
   },
 
