@@ -7,7 +7,7 @@ const About = () => (
   <div className="about">
     <h2 className="about_title"> Fermotor </h2>
     <div className="about_corp">
-      <p className="about_text">La Sarl FERMOTOR  a été créée en 1983 par M FONTES. Elle est spécialisée dans la fourniture et la pose de fermetures du bâtiment :
+      <div className="about_text">La Sarl FERMOTOR  a été créée en 1983 par M FONTES. Elle est spécialisée dans la fourniture et la pose de fermetures du bâtiment :
         <ul>
           <li>
             Menuiseries extérieures : Alu, Acier, Bois, PVC
@@ -26,7 +26,7 @@ const About = () => (
           </li>
         </ul>
         Elle a été rachetée en 2007 par Jacques FOUGERE, l’actuel gérant.Son ancienneté et son savoir-faire lui permet de répondre sur tous types de marchés (particuliers, professionnels et collectivités) et de proposer tous types de produits.
-      </p>
+      </div>
       <img 
         src="https://cdn.discordapp.com/attachments/776028623555395634/776028867235676160/photo_fermotor_retouche.jpg"
         alt="L'entreprise Fermotor"
