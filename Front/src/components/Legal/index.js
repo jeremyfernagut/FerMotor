@@ -10,8 +10,8 @@ const Legal = () => (
     <p className="legal_fermotor">5 rue Pierre Georges Latecoere 33850 Leognan France</p>
     <h2 className="legal_conception_title">Conception et réalisation du site :</h2>
     <ul className="legal_ul">
-      <li><a href="https://github.com/MorelRemi17">Rémi Morel-Charpentier</a></li>
-      <li><a href="https://github.com/jeremyfernagut">Jérémy Fernagut</a></li>
+      <li><a href="https://github.com/MorelRemi17"><i className="fa fa-github" /> Rémi Morel-Charpentier</a></li>
+      <li><a href="https://github.com/jeremyfernagut"><i className="fa fa-github" /> Jérémy Fernagut</a></li>
     </ul>
     <p className="legal_hebergement"> Hébergement du site : OVH – 2 Rue Kellermann, 59100 Roubaix, France.</p>
     <p className="legal_fermotor">Ce site est une création intellectuelle originale qui, par conséquent entre dans le champ de protection du droit d’auteur. Son contenu est également protégé par des droits de propriété intellectuelle et/ou industrielle. Toute personne qui portera atteinte aux droits de propriété intellectuelle attachés aux différents objets de ce site internet se rend coupable du délit de contrefaçon et est passible des sanctions pénales prévues par la loi. </p>
