@@ -30,7 +30,7 @@ export default [
     title: 'Menuiserie Pvc :',
     img: 'https://cdn.discordapp.com/attachments/778173311783403560/778558872365039626/5444578593_e0a262a4ab_z.jpg',
     alt: 'Présentation des menuiserie pvc',
-    supplier1: ' Prefal – Saint André de Cubzac SAVS',
+    supplier1: ' Prefal – Saint André de Cubzac',
     supplier2: 'Toulouse Ideal PVC – Toulouse',
     site1: 'https://www.prefal.fr/societe',
     site2: '',
