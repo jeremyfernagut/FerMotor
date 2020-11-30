@@ -141,6 +141,8 @@ const Contact = () => {
             <p className="introText"> Demande d'information :</p>
             <textarea
               className="text"
+              rows="5"
+              cols="33"
               placeholder="Nous vous écoutons. *"
               name="message"
               id="message"
