@@ -29,7 +29,6 @@ import './style.scss';
 // TODO CONTACT : Lier l'adresse mail orange de l'entreprise au formulaire de contact.
 // TODO ABOUT : Faire la version responsive ( mobile ).
 // TODO LEGAL : Faire la version responsive ( mobile ).
-// TODO NOTFOUND : Faire la version responsive ( mobile ).
 // TODO Voir pour la mise en ligne, prix, nom de domaine.
 
 const App = () => (
