@@ -2,6 +2,8 @@ import React from 'react';
 import './style-mobile.scss';
 import './style-desktop.scss';
 
+// Test push du mac
+
 const Legal = () => (
   <div className="legal">
     <h1 className="legal_title">Mentions légales :</h1>
