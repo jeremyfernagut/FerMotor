@@ -3,8 +3,6 @@ import PropTypes from 'prop-types';
 import './style-mobile.scss';
 import './style-desktop.scss';
 
-// TODO faire les props 
-
 const Home = (props) => {
   const { list } = props;
   return (
