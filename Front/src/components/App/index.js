@@ -17,13 +17,12 @@ import Legal from '../Legal';
 import data from '../../data/data';
 import supplier from '../../data/service';
 
-
 import './style.scss';
 
 // ========= Composant ===========
 
-// TODO HOME : travailler sur le visuel ( verifier le responsive ) et faire les props.
-// TODO INTERVENTION : travailler sur le visuel et faire les props.
+// TODO HOME : travailler sur le visuel.
+// TODO INTERVENTION : travailler sur le visuel.
 // TODO CONTACT : Lier l'adresse mail orange de l'entreprise au formulaire de contact.
 // TODO Voir pour la bande blanche sur le coté gauche lorsque l'on passe en version mobile.
 // TODO Voir pour la mise en ligne, prix, nom de domaine.

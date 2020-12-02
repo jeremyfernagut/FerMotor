@@ -4,9 +4,6 @@ import logo from '../../assets/images/petit_logo.png';
 import './style-mobile.scss';
 import './style-desktop.scss';
 
-// // TODO ajouter les nav link une fois que les routes seront crées.
-// TODO verifier le css +- 800 px bug affichage
-
 const Header = () => (
   <div className="header">
     <div id="header_title">
