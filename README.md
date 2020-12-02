@@ -50,7 +50,6 @@ Site vitrine avec un Front en React et un Back en Symfony.
     Page a propos présentant 
 
     * **Fermotor** 
-    * Fournisseurs 
 
 4. Contact
 
