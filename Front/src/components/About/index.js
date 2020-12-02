@@ -1,3 +1,5 @@
+/* eslint-disable max-len */
+/* eslint-disable react/jsx-closing-bracket-location */
 import React from 'react';
 import './style-desktop.scss';
 

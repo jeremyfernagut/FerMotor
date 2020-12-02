@@ -2,9 +2,6 @@ import React, { useState } from 'react';
 import './style-mobile.scss';
 import './style-desktop.scss';
 
-// TODO : voir pour le CSS soucis entre 600 et 700 px
-
-
 const Contact = () => {
   const [name, setName] = useState('');
   const [phone, setPhone] = useState('');
@@ -54,7 +51,7 @@ const Contact = () => {
     setTimeout(() => {
       formMess.style.opacity = '0';
     }, 5000);
-  }
+  };
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -72,7 +69,6 @@ const Contact = () => {
   };
 
   const sendFeedback = (templateId, variables) => {
-
     window.emailjs
       .send('gmail', templateId, variables)
       .then((res) => {

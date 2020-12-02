@@ -1,7 +1,7 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import './style-mobile.scss';
 import './style-desktop.scss';
-
 
 const Intervention = (props) => {
   const { list } = props;
@@ -40,7 +40,14 @@ const Intervention = (props) => {
         }
       </div>
     </div>
-  )
-}
+  );
+};
 
+Intervention.popTypes = {
+  list: PropTypes.arrayOf(
+    PropTypes.shape({
+      id: PropTypes.string.isRequired,
+    }),
+  ).isRequired,
+};
 export default Intervention;

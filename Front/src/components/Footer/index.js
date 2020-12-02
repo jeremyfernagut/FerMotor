@@ -4,12 +4,6 @@ import logo from '../../assets/images/petit_logo.png';
 import './style-mobile.scss';
 import './style-desktop.scss';
 
-// // TODO : Inserer les vrais informations et véirifier l'utilité des className tel horraire adresse ( css empty ) 
-// // TODO soucis avec le rendu du logo de l'entreprise, voir la graphiste.
-// // TODO voir pour faire un button pour remonter en haut de page ? 
-// // TODO modifier l'icone pour remonter en haut de page ( voir arrow_up dans le dossier img)
-// TODO revoir en fonction de la largeur d'écran entre 600 et 800 +- px
-
 const Footer = () => (
   <div className="footer">
     <h1 className="footer_title"> Nos Coordonnées </h1>
