@@ -2,13 +2,13 @@ export default [
   {
     id: '1',
     title: 'Menuiserie Alu :',
-    img: 'https://cdn.discordapp.com/attachments/778173311783403560/778555708589342770/pexels-expect-best-323776.jpg',
+    img: 'https://cdn.discordapp.com/attachments/778173311783403560/778212901315543041/photo.JPG',
     alt: 'Présentation des menuiseries alu',
     supplier1: 'Prod Alu 33',
     supplier2: 'Prefal – Saint André de Cubzac',
     supplier3: 'FMA – Nantes',
     supplier4: 'K-line – Nantes',
-    site1: '',
+    site1: 'https://www.societe.com/societe/prod-alu-33-514715770.html',
     site2: 'https://www.prefal.fr/societe',
     site3: 'https://www.fma-f2m.fr/',
     site4: 'https://www.k-line.fr/index.aspx',
@@ -21,7 +21,7 @@ export default [
     alt: 'Présentation des menuiseries acier',
     supplier1: ' F2M – Nantes',
     supplier2: ' VD industry – Strasbourg',
-    site1: '',
+    site1: 'https://www.societe.com/societe/f2m-822858130.html',
     site2: 'https://vd-industry.eu/fr/',
   },
 
@@ -33,7 +33,7 @@ export default [
     supplier1: ' Prefal – Saint André de Cubzac',
     supplier2: 'Toulouse Ideal PVC – Toulouse',
     site1: 'https://www.prefal.fr/societe',
-    site2: '',
+    site2: 'https://www.ideal-pvc.fr/',
   },
 
   {
