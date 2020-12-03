@@ -35,9 +35,15 @@
 @media (max-width: 600px) {
 .about_img
 {
-    width:100%;
+    width:90%;
     height: 30%;
     padding-bottom: 2%;
+};
+.about_text
+{
+    text-align: left;
+    width: 90%;
+    line-height: 1.5;
 };
 }
 
